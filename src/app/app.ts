@@ -6,7 +6,7 @@ import { Listadestino } from './listadestino/listadestino';
   standalone: true,
   imports: [Listadestino],
   templateUrl: './app.html',
-  styleUrls: ['./app.scss']   // ← ojo: plural y array con corchetes
+  styleUrls: ['./app.scss'] 
 })
 export class App {
   title = 'APP EN ANGULAR 👻';
