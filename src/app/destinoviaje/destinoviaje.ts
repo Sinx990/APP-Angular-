@@ -9,5 +9,5 @@ import { Component, Input, HostBinding } from '@angular/core';
 export class Destinoviaje {
   @Input() nombre!: string;
 
-  @HostBinding('class.list-group-item') itemClass = true; // para Bootstrap
+  @HostBinding('class.list-group-item') itemClass = true; 
 }
